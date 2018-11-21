@@ -1,0 +1,83 @@
+N 16 - 22 : 1  
+	[PC  1]
+	(Action: 1) 
+	(Other  :1)
+--------------------------------------------------------------------------------------------------------------
+M < 9       :     1 
+	[Mobile, 1]
+	(MOBA: 1)
+	( Rov    : 1)
+M 16 - 22 :     32 
+	[Mobile, 10]
+	[PC,         22]
+	(Adventure: 16)
+	(Action       : 21)
+	(RPG          : 15)
+	(Sport         : 10)
+	(Music         : 5 )
+	(MOBA      : 17)
+	(Arcade       : 9 )
+	(Card          : 4 )
+	(Racing       : 8 )
+	(Puzzle       : 4 )
+	(Other         : 5 )
+M 9 - 15   :      1 
+	[Mobile, 1]
+	(Action        : 1)
+	(Adventure: 1)
+	(Arcade       : 1)
+	(RPG            : 1)
+	(Racing       : 1)
+	(Music         : 1)
+
+M 23 - 29 :    3 
+	[PC , 3]
+	(Action        : 3)
+	(Adventure : 3)
+	(RPG           : 2)
+	(Music         : 2)
+	(Other          : 1)
+	(Arcade        : 1)
+	(Card           : 1)
+	(Racing        : 1)
+	(Puzzle : 2)
+	(Sport : 1)
+	(MOBA : 1)
+M > 30     :      1 
+	[Mobile,1]
+	(Action : 1)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+F < 9       :   0
+F 16 - 22 :   42 
+	[Mobile, 35]
+	[PC       , 7]
+	(Action       : 17)
+	(Adventure : 20)
+	(Sports        : 4)
+	(Music        : 12)
+	(MOBA      : 15)
+	(Other        : 11)
+	(Arcade      : 5)
+	(Racing      : 3)
+	(RPG          : 12)
+	(Puzzle       : 10)
+	(Card          : 1)
+F 9 - 15   :  8
+	[Mobile , 8]
+	(Adventure: 3)
+	( RPG         : 1 )
+	(Music        : 4)
+	(MOBA      : 4)
+	(MOBA      : 1)
+	(Arcade      : 1)
+	(Action       : 1)
+	(Card          : 1)
+	(Puzzle       : 1)
+F 23 - 29 :  2
+	[Mobile , 2]
+	(Music : 2)
+	(RPG   : 1)
+	(Puzzle : 1)
+F > 30     :  0
