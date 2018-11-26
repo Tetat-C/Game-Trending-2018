@@ -1,60 +1,85 @@
-N 16 - 22 : 1  
-	[PC  1]
-	(Action: 1) 
-	(Other  :1)
----------------------------------------------------------------------------------------
-
-M < 9       :     1 
-	[Mobile, 1]
-	(Adventure: 1)
+N, 9 - 15 :	  1 
+	[PC, 1]
+	(MOBA : 1)
 	(RPG : 1)
 
-M 16 - 22 :     32 
-	[Mobile, 10]
-	[PC,         22]
-	(Adventure: 8)
-	(Action       : 21)
-	(RPG          : 2)
-	(MOBA      : 17)
-	(Racing       : 4 )
-	(Other         : 1 )
-M 9 - 15   :      1 
+N, 16 - 22 :   4
 	[Mobile, 1]
-	(Action        : 1)
-	(Music         : 1)
+	[PC, 3]
+	(Action : 3)
+	(Other : 1)
+	(MOBA : 2)
+	(RPG : 1)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-M 23 - 29 :    3 
-	[PC , 3]
-	(Action        : 3)
-	(Adventure : 3)
+M, 9 :   1
+	[Mobile, 1]
+	(RPG : 1)
+	(Adventure : 1)
 
-M > 30     :      1 
-	[Mobile,1]
-	(Action : 1)
+M, 9 - 15 :   19
+	[PC : 15]
+	[Mobile : 4]
+	(Action : 5)
+	(RPG :11)
+	(MOBA : 15)
+	(Sports : 1)
+	(Other : 1)
 
-
---------------------------------------------------------------------------------
-
-F < 9       :   0
-F 16 - 22 :   42 
-	[Mobile, 35]
-	[PC       , 7]
-	(Action       : 15)
-	(Adventure : 18)
-	(Music        : 3)
-	(MOBA      : 9)
-	(Other        : 9)
-	(RPG          : 10)
-	(Puzzle       : 7)
-F 9 - 15   :  8
-	[Mobile , 8]
-	(Adventure: 3)
-	(Music        : 3)
-	(MOBA      : 4)
-	(Arcade      : 1)
-F 23 - 29 :  2
-	[Mobile , 2]
-	(Music : 1)
-	(RPG   : 1)
+M, 16 - 22 :   93
+	[Consoles : 1]
+	[PC : 72]
+	[Mobile : 20]
+	(Action : 60)
+	(Adventure : 7)
+	(RPG : 22)
+	(Racing : 3)
+	(MOBA : 66)
 	(Puzzle : 1)
-F > 30     :  0
+	(Sports : 3)
+	(Other : 1)
+
+M, 23 - 29 :   9
+	[Consoles : 1]
+	[PC : 8]
+	(Action : 7)
+	(Adventure : 1)
+	(RPG : 2)
+	(MOBA : 7)
+
+M, 30 :   2
+	[Mobile : 1]
+	[PC : 1]
+	(Action : 2)
+	(Arcade : 1)
+----------------------------------------------------------------------------------------------------------------------------------
+
+W, 9 - 15 :   11
+	[PC : 2]
+	[Mobile : 9]
+	(Adventure : 2)
+	(Arcade : 1)
+	(Music : 5)
+	(MOBA : 7)
+	(Card : 1)
+	(Sports : 1)
+
+W, 16 - 22 :   59
+	[PC : 13]
+	[Mobile : 46]
+	(Action : 11)
+	(Adventure : 28)
+	(RPG : 6)
+	(Music : 14)
+	(MOBA : 24)
+	(Puzzle : 9)
+	(Sports : 1)
+	(Other : 7)
+
+W, 23 - 29 :   3
+	[PC : 1]
+	[Mobile : 2]
+	(Music : 2)
+	(MOBA : 1)
+	(Puzzle : 1)
+	(Other : 1)
