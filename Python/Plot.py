@@ -31,3 +31,22 @@ bysex.add('Non-Specific', sex.count('N'))
 bysex.render_to_file('./chart/byGender.svg')
 
 # .......................................
+
+byage = py.Pie()
+byage.title = 'Age'
+byage.add(' Below 9', age.count('9'))
+byage.add('9 - 15', age.count('9 - 15'))
+byage.add('16 - 22', age.count('16 - 22'))
+byage.add('23 - 29', age.count('23 - 29'))
+byage.add(' Beyond 30', age.count('30'))
+byage.render_to_file('./chart/byAge.svg')
+
+# .......................................
+
+byplatform = py.Pie()
+byplatform.title = 'Platform'
+byplatform.add('PC', platform.count('PC'))
+byplatform.add('Mobile', platform.count('Mobile')+1)
+byplatform.add('Consoles', platform.count('Consoles'))
+byplatform.render_to_file('./chart/byPlatform.svg')
+
