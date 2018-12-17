@@ -11,15 +11,16 @@ record = []
 
 with open('Data.txt') as f:
     for line in f:
-        record.append(line.split('~'))
+        record.append(line.replace('\n', '').split('~'))
 
 record[0][0] = 'N'
 
 sex = [record[i][0] for i in range(len(record))]
 age = [record[i][1] for i in range(len(record))]
 platform = [record[i][2] for i in range(len(record))]
-genre = [record[i][3] for i in range(len(record))]
-games = [record[i][4] for i in range(len(record))]
+genre = [record[i][3].lstrip('[').rstrip(']').replace(' ', '').split(',') for i in range(len(record))]
+games = [record[i][4].lstrip('[').rstrip(']').replace(' ', '').split(',') for i in range(len(record))]
+
 
 # ------- Draw A Graph Sections --------
 
@@ -49,4 +50,8 @@ byplatform.add('PC', platform.count('PC'))
 byplatform.add('Mobile', platform.count('Mobile')+1)
 byplatform.add('Consoles', platform.count('Consoles'))
 byplatform.render_to_file('./chart/byPlatform.svg')
+
+# .......................................
+
+
 
